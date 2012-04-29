@@ -92,7 +92,7 @@ trait DummyTest extends Specification with ScalaCheck with ThrownExpectations {
     val propLeftID_negNums = forAll { (a: Dummy) =>
       (a.amount < 0) ==> { ∅[Dummy] ⊹ a mustEqual a } }
     //sclacheck property of rightID for Dummies
-    val propRightID = forAll { (a: Dummy) => ∅[Dummy] ⊹ a mustEqual a  }
+    val propRightID = forAll { (a: Dummy) => a ⊹ ∅[Dummy] mustEqual a  }
     //combine scalacheck properties
     val combinedProperty = propLeftID_posNums && propLeftID_negNums && propRightID
 
