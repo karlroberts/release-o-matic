@@ -18,7 +18,7 @@ STATE
 
 AUTHOR
         Karl Roberts <karl.roberts@owtelse.com>
-        Karen Davis <insert email here>
+        Karen Davis <karenbdavis@gmail.com>
 
 NOTES
         1. official repository
