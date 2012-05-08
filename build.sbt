@@ -12,6 +12,8 @@ scalaVersion := "2.9.1"
 //scalaSource in Test <<= baseDirectory(_ / "test")
 resolvers += "Scala-Tools Maven2 Snapshots Repository" at "http://oss.sonatype.org/content/repositories/releases"
 
+addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "2.0.0")
+
 // add a test dependencies
 libraryDependencies += "org.scalacheck" %% "scalacheck" % "1.9" % "test"
 

@@ -1,0 +1,19 @@
+<classpath>
+  <classpathentry output="target/classes" path="src/main/scala" kind="src"></classpathentry>
+  <classpathentry output="target/classes" path="src/main/java" kind="src"></classpathentry>
+  <classpathentry output="target/test-classes" path="src/test/scala" kind="src"></classpathentry>
+  <classpathentry output="target/test-classes" path="src/test/java" kind="src"></classpathentry>
+  <classpathentry path="org.scala-ide.sdt.launching.SCALA_CONTAINER" kind="con"></classpathentry>
+  <classpathentry path="/Users/karen/.ivy2/cache/scala_2.9.1/sbt_0.11.2/com.typesafe.sbteclipse/sbteclipse-plugin/jars/sbteclipse-plugin-2.0.0.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/karen/.ivy2/cache/scala_2.9.1/sbt_0.11.2/com.typesafe.sbteclipse/sbteclipse-core/jars/sbteclipse-core-2.0.0.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/karen/.ivy2/cache/org.scalaz/scalaz-core_2.9.1/jars/scalaz-core_2.9.1-6.0.4.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/karen/.ivy2/cache/com.tristanhunt/knockoff_2.9.1/jars/knockoff_2.9.1-0.8.0-16.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/karen/.ivy2/cache/org.scalaz/scalaz-scalacheck-binding_2.9.1/jars/scalaz-scalacheck-binding_2.9.1-6.0.4.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/karen/.ivy2/cache/org.scala-tools.testing/scalacheck_2.9.0-1/jars/scalacheck_2.9.0-1-1.9.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/karen/.ivy2/cache/org.scala-tools.testing/test-interface/jars/test-interface-0.5.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/karen/.ivy2/cache/org.scalacheck/scalacheck_2.9.1/jars/scalacheck_2.9.1-1.9.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/karen/.ivy2/cache/org.specs2/specs2_2.9.1/jars/specs2_2.9.1-1.9.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/karen/.ivy2/cache/org.specs2/specs2-scalaz-core_2.9.1/jars/specs2-scalaz-core_2.9.1-6.0.1.jar" kind="lib"></classpathentry>
+  <classpathentry path="org.eclipse.jdt.launching.JRE_CONTAINER" kind="con"></classpathentry>
+  <classpathentry path="bin" kind="output"></classpathentry>
+</classpath>
