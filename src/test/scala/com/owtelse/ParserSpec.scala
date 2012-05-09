@@ -21,14 +21,14 @@ class ParserSpec extends Specification  {
   object pTester extends CommandLineParser {
 
     def artifactIDParse = {
-      val p: ParseResult[String] = parseAll(artifactId,"\"anArtifactID\"");
+      val p: ParseResult[String] = parseAll(artifactId,"anArtifactID");
       val OK = p match {
         case x: Success[_] => {
           println("parser toString ---> " + p)
           println("parsed ---> " + p)
           val r = p.getOrElse("oops");
           println("parsed value ---> " + r)
-          r == "\"anArtifactID\""
+          r == "anArtifactID"
         }
         case _ => {
           println("parser toString ---> " + p)

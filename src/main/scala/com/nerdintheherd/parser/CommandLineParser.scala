@@ -18,7 +18,7 @@ class CommandLineParser extends JavaTokenParsers {
   def filters : Parser[Any] = "-i"~>repsep(groupId, ",");
   def projectURI: Parser[Any]=stringLiteral;
   def groupId: Parser[Any]=stringLiteral;
-  def artifactId: Parser[String] = stringLiteral;
+  def artifactId: Parser[String] = "[a-zA-Z]*".r;
   
   
 
